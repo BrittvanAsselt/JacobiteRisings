@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Jacobite Risings in Scotland</title>
+<title>Jacobite Risings in Scotland</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css" />
-  <style>
+<style>
 * {
   box-sizing: border-box;
 }
@@ -15,8 +15,10 @@ body {
 }
 
 
-/* Style the top navigation bar */
-.topnav {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
   position: fixed;
@@ -24,20 +26,37 @@ body {
   width: 100%;
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: center;
+li {
+  float: left;
+}
+
+li a {
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: ##ffffff;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" 
+  <li><a href="index.html">Jacobite Risings</a></li>
+  <li><a href="Culloden.html">Battle of Culloden</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="ReadMore.html">Read more</a></li>
+</ul>
+
 }
   </style>
   </head>
